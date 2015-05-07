@@ -1,0 +1,689 @@
+/* Base  */
+
+BODY {
+	font:13px/1.231 "Lucida Grande","Lucida Sans Regular","Lucida Sans Unicode",Verdana,sans-serif;
+	*font-size:small;
+	*font:x-small;
+}
+
+TABLE {
+	border-collapse:collapse;
+}
+
+PRE,
+CODE,
+KBD,
+SAMP,
+TT {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+H1 {
+	font-size:138.5%;  
+}
+
+H2 {
+	font-size:123.1%; 
+}
+
+H3 {
+	font-size:108%;  
+}
+
+H4 {
+	font-size:100%;  
+}
+
+H5 {
+	font-size:100%;  
+}
+
+H1, H2, H3, H4, H5, H6, strong {
+	font-weight:bold; 
+}
+
+EM {
+	font-style:italic;
+}
+
+FORM {
+	margin:0;
+	padding:0;
+}
+
+INPUT[type=text],
+INPUT[type=password],
+TEXTAREA {
+	width:12.25em;
+	*width:11.9em;
+}
+
+INPUT[type=text],
+INPUT[type=password],
+INPUT[type=button] {
+	border:1px solid;
+}
+
+TEXTAREA {
+	font:1em Arial, Helvetica, sans-serif;
+}
+
+BR, .clear {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+}
+
+IMG {
+	border:0;
+}
+
+P {
+	margin:0;
+	padding:0;
+}
+
+P.end {
+	font-size:.1em;
+}
+
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix {display: inline-block;}
+*html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+/* END Base */
+
+HTML {
+  overflow:hidden;
+}
+
+BODY {
+  background:#b3b5b7 no-repeat center top;
+  border:0;
+  margin:0;
+  overflow:hidden;
+}
+
+#content {
+	margin:0 auto;
+	width:900px;
+}
+
+.tip {
+	color:#FFF;
+	font-size:10px;
+}
+
+.errormessage {
+  color:#45BEDF;
+  font-size:11px;
+  margin:0 0 5px 0;
+}
+
+.infomessage {
+  margin:30px 10px 10px;
+}
+
+/* Header */
+
+#hd {
+	position:relative;
+	z-index:10;
+}
+
+#hd #swap {
+	background:#3492C8 url(../media/swap.png) no-repeat;
+	height:210px;
+	left:0px;
+	position:absolute;
+	top:0;
+	width:197px;
+}
+
+#hd #whatis {
+	background:transparent url(../media/whatis.png) no-repeat scroll left top;
+	height:38px;
+	left:207px;
+	position:absolute;
+	top:170px;
+	width:311px;
+}
+
+*html #hd #whatis {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/whatis.png", sizingMethod="crop");
+}
+
+#hd #navmenu {
+	left:197px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:30px;
+	width:210px;
+}
+
+#hd #metadata {
+	position:absolute;
+	right:0;
+	text-align:right;
+	top:30px;
+  width:150px;
+}
+
+#hd #metadata #year {
+	color:#229DE1;
+	font-size:26px;
+	margin:0 0 10px;
+}
+
+#hd #metadata #mail {
+	float:right;
+	height:9px;
+	width:15px;
+}
+
+#hd #metadata #location {
+	float:right;
+	height:32px;
+	margin:0 0 20px;
+	width:90px;
+}
+
+#langSelector {
+	cursor:pointer;
+	float:right;
+	height:20px;
+	margin:0 0 10px;
+	width:60px;
+}
+
+.en {
+	background:transparent url(../media/langSelector.png) no-repeat scroll left top;
+}
+
+.es {
+	background:transparent url(../media/langSelector.png) no-repeat scroll left bottom;
+}
+
+#hd #metadata #time {
+	float:right;
+	height:27px;
+	width:45px;
+}
+
+#hd #metadata .day {
+	background:transparent url(../media/day.png) no-repeat scroll left top;
+}
+
+*html #hd #metadata .day {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/day.png", sizingMethod="crop");
+}
+
+#hd #metadata .night {
+	background:transparent url(../media/night.png) no-repeat scroll left top;
+}
+
+*html #hd #metadata .night {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/night.png", sizingMethod="crop");
+}
+
+/* END Header */
+
+/* Body */
+
+#bd {
+  padding:230px 0 0 0;
+	position:relative;
+}
+
+#bd .title {
+	display:block;
+	margin:0 0 5px 0;
+}
+
+#bd #news {
+	background:transparent url(../media/news.png) no-repeat scroll left top;
+	height:15px;
+	width:172px;
+}
+
+*html #bd #news {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/news.png", sizingMethod="crop");
+}
+
+#bd #newscontent {
+	height:60px;
+	z-index:1;
+}
+
+#bd #aboutswap #aboutswapbg {
+	background:#000;
+	margin:0 0 15px 0;
+	z-index:0;
+}
+
+#bd #aboutswap #aboutswapcontent {
+	padding:30px 10px 20px 20px;
+  position:absolute;
+	width:450px;
+	z-index:5;
+}
+
+#bd #aboutswap #aboutswapcontent #welcome {
+	height:58px;
+	margin:0 0 15px 0;
+	width:416px;
+}
+
+#bd #aboutswap #aboutswapcontent #ourservices {
+	height:48px;
+	margin:0 0 10px 0;
+	width:410px;
+}
+
+#bd #aboutswap #aboutswapcontent P.about {
+	color:#FFF;
+	font-size:11px;
+}
+
+#bd #aboutswap #aboutswapcontent P.mailto {
+	font-size:11px;
+	margin:5px 0 0;
+}
+
+#bd #aboutswap #aboutswapcontent P.mailto A {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#bd #comments {
+	background:transparent url(../media/comments.png) no-repeat scroll left top;
+	height:15px;
+	width:131px;
+}
+
+*html #bd #comments {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/comments.png", sizingMethod="crop");
+}
+
+#bd #commentscontent {
+	height:60px;
+	z-index:1;
+}
+
+#bd #right {
+	right:0;
+	position:absolute;
+	top:310px;
+	width:390px;
+}
+
+#bd #calendar {
+	background:url(../media/calendar.png) no-repeat left top;
+	color:#FFF;
+	font-size:9px;
+}
+
+#bd #calendar TD {
+	padding:1px 8px;
+	text-align:center;
+}
+
+#bd #calendar TD.months {
+	line-height:16px;
+	padding:0 8px 0 0!important;
+	text-align:right;
+	vertical-align:top;
+}
+
+#bd #calendar TD.months A {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#bd #calendar .today {
+	color:#83B4D9;
+	font-weight:bold;
+}
+
+#bd TABLE.calendarwr {
+	float:right;
+	margin:3px 0;
+}
+
+#bd #latestworks {
+	height:98px;
+	width:390px;
+}
+
+#bd #latestworks {
+	background:url(../media/latestworks.png) no-repeat left top;
+}
+
+#bd #latestworks UL {
+	margin:0 0 0 105px;
+	padding:0;
+}
+
+#bd #latestworks UL LI {
+	background-color:#000;
+	float:left;
+	height:88px;
+	list-style:none;
+	margin:5px 5px 0 0;
+	padding:0;
+	width:88px;
+}
+
+#bd #latestworks UL LI IMG {
+	-moz-opacity:.85;
+	filter:alpha(opacity=85);
+	opacity:.85;
+}
+
+#bd #leavecomments {
+	background:url(../media/leavecomments.png) no-repeat left top;
+	padding-bottom:15px;
+	width:390px;
+}
+
+#bd #leavecomments TEXTAREA {
+	background:#3E3E40;
+	border:1px solid #000;
+	color:#FFF;
+	font-size:11px;
+	height:50px;
+	margin:30px 0 0 60px;
+	padding:1px;
+	width:260px;
+}
+
+#bd #leavecomments .infomessage {
+  color:#FFF;
+}
+
+.smallpop {
+	background:#FFF;
+	border:1px solid #999;
+	position:absolute;
+	top:260px;
+	width:500px;
+	z-index:15;
+}
+
+.smallpop .close {
+	height:7px;
+	left:5px;
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	width:42px;
+}
+
+.smallpop .header {
+	margin:30px 0 10px 10px;
+}
+
+.smallpop FORM {
+	margin:0 0 20px 10px;
+	position:relative;
+}
+
+*html .smallpop FORM {
+	display:inline-block;
+}
+
+.smallpop FORM .formfield {
+	background:#83B4D9;
+	clear:both;
+	margin:0 0 5px 0;
+	width:380px;
+}
+
+.smallpop FORM LABEL {
+	display:block;
+	float:left;
+	padding:1px 10px 0 5px;
+	width:65px;
+}
+
+.smallpop FORM INPUT[type=text] {
+	background:#83B4D9;
+	border:0;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 10px 0 2px;
+	width:280px;
+}
+
+.smallpop FORM TEXTAREA {
+	background:#83B4D9;
+	border:0;
+	height:80px;
+	margin:0;
+	width:380px;
+}
+
+.smallpop #sendcontact {
+	bottom:-44px;
+	height:23px;
+	left:-11px;
+	position:absolute;
+	width:50px;
+}
+
+#portfolio {
+	color:#FFF;
+	position:absolute;
+	top:235px;
+	width:880px;
+	z-index:50;
+}
+
+#portfolio #header {
+	background:transparent url(../media/portfolio.png) no-repeat scroll left top;
+}
+
+*html #portfolio #header {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.swapdg.com.ar/draft/media/portfolio.png", sizingMethod="crop");
+}
+
+#portfolio #header {
+	height:15px;
+	width:172px;
+}
+
+#portfolio #menu {
+	font-size:10px;
+	font-weight:bold;
+	list-style:none;
+	margin:10px 20px 5px;
+	padding:0;
+}
+
+#portfolio #menu LI {
+	display:inline;
+	margin-right:15px;
+	text-transform:uppercase;
+}
+
+#portfolio #menu LI A {
+	color:#45BEDF;
+	text-decoration:none;
+}
+
+#portfolio #menu LI A:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#portfolio .tip {
+	margin:0 0 0 20px;
+}
+
+#portfolio #portfoliocontent {
+  height:1px;
+  overflow:hidden;
+}
+
+#portfolio #portfoliocontent.showingContent {
+  height:635px;
+}
+
+#portfolio .portfolio {
+  width:880px;
+  z-index:55;
+}
+
+#portfolio .portfolio TD {
+	padding:10px;
+}
+
+#portfolio .portfolio TD A {
+	background-color:#000;
+	display:block;
+	height:172px;
+	width:252px;
+}
+
+#portfolio .portfolio TD.pager A {
+  background-color:transparent;
+  color:#FFF;
+  display:inline;
+  font-size:11px;
+}
+
+#portfolio .portfolio TD.pager .disabled {
+  color:#BBB;
+  font-size:11px;
+}
+
+#portfolio .portfolio IMG {
+	border:6px solid #989898;
+	cursor:pointer;
+	height:160px;
+	-moz-opacity:.85;
+	opacity:.85;
+	width:240px;
+}
+
+#portfolio .portfolio P.category {
+	font-size:11px;
+	color:#45BEDF;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+#portfolio #portfolioscrolldown {
+	height:20px;
+	line-height:20px;
+}
+
+#popup {
+  background:#000 url(../media/loading.gif) no-repeat center center;
+  display:inline-block;
+  padding:10px 10px 5px 10px;
+  position:absolute;
+  z-index:300;
+}
+
+#popup .close {
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:310;
+}
+
+/* #popup #file {
+  height:440px;
+}*/
+
+#popup .footer {
+  padding-top:5px;
+  position:relative;
+}
+
+#popup .description {
+  color:#FFF;
+  font-size:11px;
+  margin-right:100px;
+}
+
+#popup .description .type {
+  color:#45BEDF;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:20px;
+}
+
+#popup .description A {
+  color:#FFF;
+}
+
+#popup .gallery {
+  font-size:11px;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+#popup .gallery LI {
+  display:inline;
+  margin:0 5px 0 0;
+  padding:0;
+}
+
+#popup .gallery LI A {
+  color:#45BEDF;
+	text-decoration:none;
+}
+
+#popup .gallery LI SPAN{
+  cursor:pointer;
+}
+
+/* END Body */
+
+/* Scrollbar */
+
+.scrollbar-vert {
+  background-color: #797D81;
+  height:100%;
+  position:fixed;
+  right:0;
+  top:0;
+  width:17px;
+  z-index:3000;
+}
+
+*html .scrollbar-vert {
+	position:absolute;
+}
+
+.handle-vert{
+  height: 146px;
+  width: 20px;
+  background: url(../media/handle-vert.png) no-repeat;
+}
+
+/* END Scrollbar */
+
+.tooltipbox {
+	background-color:#2B2D2E;
+	font-size:13px;
+	padding:2px 5px;
+	z-index:60;
+}

@@ -1,0 +1,81 @@
+body {
+	font:12px "Lucida Grande","Lucida Sans Regular","Lucida Sans Unicode",Verdana,sans-serif;
+}
+
+A {
+	color:#3492C8;
+}
+
+H3 {
+	margin:.3em;
+}
+
+#hd, #mainmenu, #bd {
+	margin:0 auto;
+	padding:0 10px;
+	width:900px;
+}
+
+#mainmenu {
+	background:#A9D1E9;
+	margin-bottom:15px;
+	padding:3px 0;
+}
+
+#mainmenu LI {
+	display:inline;
+	margin:0 10px 0 5px;
+}
+
+#mainmenu LI A {
+	color:#000;
+	margin:1px;
+	padding:2px 3px;
+	text-decoration:none;
+}
+
+#mainmenu LI A:hover {
+	background:#FFF;
+}
+
+TABLE.list {
+	border:0;
+	width:100%;
+}
+
+TABLE.list A {
+	margin-right:5px;
+}
+
+TABLE.list TD {
+	border:0;
+	border-bottom:1px solid #666;
+	padding:2px 5px;
+}
+
+TABLE.list TD IMG {
+	vertical-align:middle;
+}
+
+
+TABLE.list TD.group {
+	background:#A9D1E9;
+}
+
+FORM INPUT[type=text] {
+	width:250px;
+}
+
+FORM DIV, FORM FIELDSET {
+	margin-bottom:0;
+	padding:5px 0;
+}
+
+FORM FIELDSET DIV {
+	padding:2px 15px;
+}
+
+SPAN.note {
+	color:#999;
+	font-size:11px;
+}

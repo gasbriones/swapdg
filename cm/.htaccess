@@ -1,0 +1,4 @@
+AuthName "cm"
+AuthType "basic"
+AuthUserFile /home/swapdg/public_html/cm/.passwd
+Require valid-user
