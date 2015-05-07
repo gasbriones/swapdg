@@ -18,6 +18,14 @@ if (empty($_SESSION['swapLang'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="StyleSheet" href="css/swap.css" TYPE="text/css">
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
+<script type="text/javascript">
+   //no conflict jquery
+    jQuery.noConflict();
+
+</script>
+
 <script type="text/javascript" src="js/mootools-1.2.6-core.js"></script>
 <script type="text/javascript" src="js/mootools-1.2.5.1-more.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
@@ -128,10 +136,10 @@ bgimg.src = "media/bg.jpg";
     <div id="portfolio" style="display:none" class="clearfix">
       <div id="header"><img src="media/pix.png" class="header" alt="Portfolio" /></div>
       <ul id="menu">
-        <li><a href="javascript:void(0); portfoliofilter('Brand');">Brand</a></li>
-        <li><a href="javascript:void(0); portfoliofilter('Print');">Print</a></li>
-        <li><a href="javascript:void(0); portfoliofilter('Website');">Websites</a></li>
-        <li><a href="javascript:void(0); portfoliofilter('Packaging');">Packaging</a></li>
+        <li data-filter=".Brand">Brand</li>
+        <li data-filter=".Print">Print</li>
+        <li data-filter=".Website">Websites</li>
+        <li data-filter=".Packaging">Packaging</li>
       </ul>
       <div id="portfoliocontent" class="clearfix"></div>
     </div>

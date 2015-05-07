@@ -10,7 +10,7 @@ if ($rs=@mysql_query($sql,$con)) {
             $gallery = $item['gallery'];
             $images = $item['images'];
             $brief = htmlentities($item['brief']);
-            $content .= "<li><a href='javascript:void(0); showgallery(\"$gallery\",\"$images\");' onmouseover='removeshadow(".$imgcounter.");' onmouseout='showshadow(".$imgcounter.");'><img id='img".$imgcounter."bw' class='".$item['family']."bw' src='portfolio/" . $item['thumb'] . "' width='240' height='160' /> <img id='img".$imgcounter."color' class='".$item['family']."color' src='portfolio/" . $item['thumbcolor'] . "' style='display:none;' width='240' height='160' /></a> <p class='category'>".$brief."</p></li>";
+            $content .= "<li class='".$item['family']." item'><a href='javascript:void(0); showgallery(\"$gallery\",\"$images\");' onmouseover='removeshadow(".$imgcounter.");' onmouseout='showshadow(".$imgcounter.");'><img id='img".$imgcounter."bw' class='".$item['family']."bw' src='portfolio/" . $item['thumb'] . "' width='240' height='160' /> <img id='img".$imgcounter."color' class='".$item['family']."color' src='portfolio/" . $item['thumbcolor'] . "' style='display:none;' width='240' height='160' /></a> <p class='category'>".$brief."</p></li>";
         }
     } else {
         $content = "<li>There are no galleries published in our portfolio.</li>";
@@ -18,6 +18,6 @@ if ($rs=@mysql_query($sql,$con)) {
 }
 ?>
 <p class="tip">Click on an image to enlarge</p>
-<ul class="portfolio clearfix">
+<ul id="portfolio-iso" class="portfolio clearfix">
     <?php echo $content; ?>
 </ul>

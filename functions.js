@@ -298,7 +298,7 @@ function portfoliopopup(imagesstring) {
 	var myFx = new Fx.Tween("popup", {duration:"long"}).start("opacity",0,1).chain(
 		function() {
 			var images = imagesstring.split(",");
-			loadimg(images[0]);
+			loadimg(images);
 		}
 	);
 }

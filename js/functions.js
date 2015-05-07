@@ -183,6 +183,7 @@ function loadportfolio() {
 			begin.toTop.delay(1000, begin);
             //makeScrollbar( window, $('mainscrollbar'), $('mainhandle') );
 			//makeScroller();
+            portfoliofilter();
 			if ((Browser.Engine.trident == true) && (Browser.Engine.version == 4)) {
 				fullHeight("overlay");
 			}
@@ -311,7 +312,7 @@ function fadeout(el,value) {
 
 function showgallery(gallery,imagesstring) {
   if ( !($chk($("popup"))) ) {
-    stopScroller();
+    //stopScroller();
     var wsize = window.getSize();
     var wscroll = window.getScroll();
     var initX = wsize.x / 2;
@@ -429,40 +430,25 @@ function closepopup() {
 		}
 	);
 }
+function onArrange() {
+    console.log('layout done');
+}
 
-function portfoliofilter(group) {
-	if (currentgroup != "") {
-		var groupbw = 'img.' + currentgroup + 'bw';
-		var groupcolor = 'img.' + currentgroup + 'color';
-		var imgsbw = $$(groupbw);
-		var imgscolor = $$(groupcolor);
-		var i = 0;
-		while ( img = imgscolor[i] ) {
-			img.setStyle("display","none");
-			i++;
-		}
-		i = 0;
-		while ( img = imgsbw[i] ) {
-			img.setStyle("display","");
-			i++;
-		}
-	}
-	currentgroup = "";
-	var newgroupbw = 'img.' + group + 'bw';
-	var newgroupcolor = 'img.' + group + 'color';
-	imgsbw = $$(newgroupbw);
-	imgscolor = $$(newgroupcolor);
-	i = 0;
-	while ( img = imgsbw[i] ) {
-		(img).setStyle("display","none");
-		i++;
-	}
-	i = 0;
-	while ( img = imgscolor[i] ) {
-		(img).setStyle("display","");
-		i++;
-	}
-	currentgroup = group;
+function portfoliofilter() {
+    (function($) {
+
+        var $container = $('#portfolio-iso');
+
+        $container.isotope({
+            itemSelector: '.item'
+        });
+
+        $('#menu li').click(function(){
+            $container.isotope({ filter:$(this).data('filter')});
+            console.log('esto es lo que esta andando --> ',$(this).data('filter'))
+        });
+
+    })(jQuery);
 }
 
 function updateCalendar(reftime,months) {

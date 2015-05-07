@@ -481,14 +481,14 @@ BODY {
 	text-transform:uppercase;
 }
 
-#portfolio #menu LI A {
+#portfolio #menu LI {
 
     color: #126D83;
 	text-decoration:none;
     font-size: 30px;
 }
 
-#portfolio #menu LI A:hover {
+#portfolio #menu LI:hover {
     color:#20C0DF;
 	text-decoration:none;
 }
@@ -499,7 +499,7 @@ BODY {
 
 #portfolio #portfoliocontent {
   height:1px;
-  overflow:hidden;
+
 }
 
 #portfolio #portfoliocontent.showingContent {
