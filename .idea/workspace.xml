@@ -26,25 +26,25 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="51" selection-start="6164" selection-end="6164" vertical-scroll-proportion="-10.375" vertical-offset="1866" max-vertical-offset="2310">
+            <state line="125" column="14" selection-start="5497" selection-end="5497" vertical-scroll-proportion="-10.75" vertical-offset="1617" max-vertical-offset="2310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swap.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="swap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/swap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="502" column="1" selection-start="8530" selection-end="8530" vertical-scroll-proportion="0.43537414" vertical-offset="7338" max-vertical-offset="10005">
+            <state line="481" column="19" selection-start="8295" selection-end="8295" vertical-scroll-proportion="0.0" vertical-offset="6945" max-vertical-offset="10020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="functions.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="446" column="65" selection-start="11919" selection-end="11919" vertical-scroll-proportion="-6.703704" vertical-offset="6509" max-vertical-offset="7500">
+            <state line="447" column="44" selection-start="11939" selection-end="11939" vertical-scroll-proportion="0.26849315" vertical-offset="6509" max-vertical-offset="7515">
               <folding />
             </state>
           </provider>
@@ -53,28 +53,10 @@
       <file leaf-file-name="portfolio.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-6.470588" vertical-offset="0" max-vertical-offset="420">
+            <state line="18" column="2" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
               <folding>
                 <marker date="1431027844405" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.bxslider.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery.bxslider.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="840">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -92,9 +74,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/functions.js" />
         <option value="$PROJECT_DIR$/portfolio.php" />
+        <option value="$PROJECT_DIR$/css/swap.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/css/swap.css" />
       </list>
     </option>
   </component>
@@ -184,6 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -217,22 +200,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="0" width="1602" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25288832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -256,11 +239,53 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/google821dcb7f07932778.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+        <state line="141" column="51" selection-start="6164" selection-end="6164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2310">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="502" column="1" selection-start="8530" selection-end="8530" vertical-scroll-proportion="0.0" vertical-offset="7530" max-vertical-offset="10005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="446" column="65" selection-start="11919" selection-end="11919" vertical-scroll-proportion="0.0" vertical-offset="6509" max-vertical-offset="7500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+          <folding>
+            <marker date="1431027844405" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.bxslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google821dcb7f07932778.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crossdomain.xml">
@@ -277,9 +302,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="51" selection-start="6164" selection-end="6164" vertical-scroll-proportion="-10.375" vertical-offset="1866" max-vertical-offset="2310">
+        <state line="20" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.2890411" vertical-offset="89" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
@@ -291,32 +316,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-6.470588" vertical-offset="0" max-vertical-offset="420">
+        <state line="18" column="2" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
           <folding>
             <marker date="1431027844405" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="446" column="65" selection-start="11919" selection-end="11919" vertical-scroll-proportion="-6.703704" vertical-offset="6509" max-vertical-offset="7500">
+        <state line="125" column="14" selection-start="5497" selection-end="5497" vertical-scroll-proportion="-10.75" vertical-offset="1617" max-vertical-offset="2310">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/swap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="502" column="1" selection-start="8530" selection-end="8530" vertical-scroll-proportion="0.43537414" vertical-offset="7338" max-vertical-offset="10005">
+        <state line="481" column="19" selection-start="8295" selection-end="8295" vertical-scroll-proportion="0.0" vertical-offset="6945" max-vertical-offset="10020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="447" column="44" selection-start="11939" selection-end="11939" vertical-scroll-proportion="0.26849315" vertical-offset="6509" max-vertical-offset="7515">
           <folding />
         </state>
       </provider>

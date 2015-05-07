@@ -136,10 +136,10 @@ bgimg.src = "media/bg.jpg";
     <div id="portfolio" style="display:none" class="clearfix">
       <div id="header"><img src="media/pix.png" class="header" alt="Portfolio" /></div>
       <ul id="menu">
-        <li data-filter=".Brand">Brand</li>
-        <li data-filter=".Print">Print</li>
-        <li data-filter=".Website">Websites</li>
-        <li data-filter=".Packaging">Packaging</li>
+        <li data-filter="Brand">Brand</li>
+        <li data-filter="Print">Print</li>
+        <li data-filter="Website">Websites</li>
+        <li data-filter="Packaging">Packaging</li>
       </ul>
       <div id="portfoliocontent" class="clearfix"></div>
     </div>

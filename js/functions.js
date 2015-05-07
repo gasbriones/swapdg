@@ -444,8 +444,9 @@ function portfoliofilter() {
         });
 
         $('#menu li').click(function(){
-            $container.isotope({ filter:$(this).data('filter')});
-            console.log('esto es lo que esta andando --> ',$(this).data('filter'))
+            $('#menu li').removeClass();
+            $container.isotope({ filter:'.'+$(this).data('filter')});
+            $(this).addClass('active');
         });
 
     })(jQuery);
