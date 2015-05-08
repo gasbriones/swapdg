@@ -18,7 +18,9 @@ if (empty($_SESSION['swapLang'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="StyleSheet" href="css/swap.css" TYPE="text/css">
+<link rel="StyleSheet" href="css/jquery.bxslider.css" TYPE="text/css">
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
 <script type="text/javascript">
    //no conflict jquery
