@@ -650,12 +650,12 @@ BODY {
 
 #popup {
     background: #000 url(../media/loading.gif) no-repeat center center;
-    position: absolute;
+    position: fixed;
     z-index: 300;
     background: #E1E2E3;
     top: 10%;
     width: 90%;
-    left: 5%;
+    max-width: 1280px;
 
 }
 
@@ -668,6 +668,8 @@ BODY {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    background: #FFFFFF;
+    padding: 2px 5px;
 
 }
 .bx-slider{
@@ -695,12 +697,12 @@ BODY {
 
 .bx-wrapper .bx-prev {
     background: url("../images/controls.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-    left: 0;
+    left: 0 !important;
 }
 
 .bx-wrapper .bx-next {
     background: url("../images/controls.png") no-repeat scroll -53px 0 rgba(0, 0, 0, 0) !important;
-    right: 0;
+    right: 0 !important;
 }
 
 .bx-viewport {
@@ -722,8 +724,11 @@ BODY {
 #popup .description {
     color: #58585A;
     font-size: 20px;
-    margin: 20px 20px 20px 300px;
+    margin: 10px 10px 10px 18%;
     font-weight: lighter;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
 }
 
 #popup .description .type {
@@ -734,7 +739,24 @@ BODY {
 }
 
 #popup .description A {
-    color: #FFF;
+    color: #3492c8;
+}
+#popup .description .block {
+    display: table;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+
+#popup .description .block.blue {
+    background:#3492c8;
+    left: 0;
+    width: 13%;
+}
+#popup .description .block.gray {
+    background:#646567;
+    left: 13%;
+    width: 3%;
 }
 
 #popup .gallery {

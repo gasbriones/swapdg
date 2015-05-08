@@ -24,15 +24,35 @@ if ($rs=@mysql_query($sql,$con)) {
 <?php endforeach?>
 </ul>
 <div id="popupfooter" class="footer">
-    <p class="description"><span id="type" class="type"><?php echo $group ?></span><?php echo $text ?> </p>
+    <p class="description" title="<?php echo $text ?>">
+        <span class="block blue"></span>
+        <span class="block gray"></span>
+        <span id="type" class="type"><?php echo $group ?></span>
+        <?php echo $text ?> </p>
 
 <script type="text/javascript">
 _gaq.push(['_trackEvent', 'Portfolio', 'Detalle del item <?php echo $item['brief']; ?>']);
 (function($) {
 
-   var slider=  $('.bx-slider').bxSlider({
-        auto:true,
-        minSlides: 3
+   $('.bx-slider').bxSlider({
+       minSlides: 2,
+       maxSlides: 3,
+       slideWidth: 600,
+       slideMargin: 0,
+       moveSlides:1
+    });
+
+    function center(){
+        var window = $(document).width();
+        var pop = $('#popup').width();
+        var left = (window-pop)/2+'px';
+        $('#popup').css({left: left});
+    }
+
+    center();
+
+    $(window).resize(function() {
+        center();
     });
 
 
