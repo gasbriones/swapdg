@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'din';
+    src: url("../fonts/ufonts.com-din-bold.eot");
+    src: url("../fonts/ufonts.com-din-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ufonts.com-din-bold.woff") format("woff"), url("../fonts/ufonts.com-din-bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din light';
+    src: url("../fonts/ufonts.com-din-light.eot");
+    src: url("../fonts/ufonts.com-din-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ufonts.com-din-light.woff") format("woff"), url("../fonts/ufonts.com-din-light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 /* Base  */
 BODY {
     font: 13px/1.231 "Lucida Grande", "Lucida Sans Regular", "Lucida Sans Unicode", Verdana, sans-serif;
