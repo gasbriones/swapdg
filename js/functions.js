@@ -312,13 +312,7 @@ function fadeout(el,value) {
 
 function showgallery(gallery,imagesstring) {
   if ( !($chk($("popup"))) ) {
-    //stopScroller();
-    var wsize = window.getSize();
-    var wscroll = window.getScroll();
-    var initX = wsize.x / 2;
-    initX = initX.round() - 150;
-    var initY = wsize.y / 2;
-    initY = initY.round() - 75 + wscroll.y;
+
     var popup = new Element("div", {
       id:"popup"
     });
@@ -326,11 +320,8 @@ function showgallery(gallery,imagesstring) {
       id:"imgcontainer"
     });
     popup.setStyles({
-      height:"150px",
-      left:initX + "px",
-      opacity:0,
-      top:initY + "px",
-      width:"300px"
+      height:"auto",
+      opacity:0
     });
     imgcontainer.setStyle("position","relative");
     popup.inject(document.body);
@@ -349,15 +340,7 @@ function showgallery(gallery,imagesstring) {
 
 function portfoliopopup(imagesstring) {
 	try {
-	var popupcoords = $("popup").getCoordinates();
-	var wsize = window.getSize();
-	var newX = ((wsize.x - popupcoords.width) / 2).round() + "px";
-	var wscroll = window.getScroll();
-	var newY = (( wsize.y - popupcoords.height) / 2).round() + wscroll.y + "px";
-	$("popup").setStyles({
-		left:newX,
-		top:newY
-	});
+
 	var myFx = new Fx.Tween("popup", {duration:"long"}).start("opacity",0,1).chain(
 		function() {
 			var myTips = new Tips('.tooltip', { className:'tooltipbox' });
@@ -372,7 +355,6 @@ function loadimg(image) {
   fadeout("file",0);
   $("file").setStyle("visibility","hidden");
   $("popupfooter").setStyles({
-    "opacity":0,
     "visibility":"visible"
   });
   var imgPath = "portfolio/" + image;
@@ -388,30 +370,8 @@ function swapgalleryimg(image) {
 }
 
 function showimage(imgPath,newWidth,newHeight) {
-	var myEffect = new Fx.Morph("popup", { duration:"short" });
-	var popupcoords = $("popup").getCoordinates();
-	var wsize = window.getSize();
-  var fsize = $("popupfooter").getSize();
-	var newX = ((wsize.x - newWidth - 8) / 2).round();
-	var wscroll = window.getScroll();
-	var newY = (( wsize.y - newHeight) / 2).round() + wscroll.y;
-  var newTopPos = (newHeight /2).round() + "px";
-  $("file").setStyles({
-    "opacity":0,
-    "visibility":"visible"
-  });
-	$("file").src = imgPath;
-	myEffect.start({
-		height:[popupcoords.height -15, newHeight + fsize.y],
-		left:[popupcoords.left, newX],
-		top:[popupcoords.top, newY],
-		width:[popupcoords.width -20, newWidth]
-	}).chain(
-		function() {
-			fadein("file",1);
-			fadein("popupfooter",1);
-		}
-	);
+
+
 }
 
 function closepopup() {
@@ -451,6 +411,11 @@ function portfoliofilter() {
 
     })(jQuery);
 }
+
+function portfolioslider(){
+
+}
+
 
 function updateCalendar(reftime,months) {
   var myHTMLRequest = new Request.HTML({
