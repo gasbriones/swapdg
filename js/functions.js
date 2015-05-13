@@ -439,8 +439,8 @@ function updateCalendar(reftime,months) {
 function removeshadow(img) {
 	var bw = "img"+img+"bw";
 	var color = "img"+img+"color";
-	$(bw).setStyle('opacity',1);
-	$(color).setStyle('opacity',1);
+	$(bw).setStyle('opacity',.85);
+	$(color).setStyle('opacity',.85);
 }
 
 function showshadow(img) {
@@ -452,7 +452,7 @@ function showshadow(img) {
 
 function removeshadowlw(img) {
 	var mimg = "home"+img;
-	$(mimg).setStyle('opacity',1);
+	$(mimg).setStyle('opacity',.85);
 }
 
 function showshadowlw(img) {

@@ -654,7 +654,30 @@ BODY {
     padding: 10px 5px;
     width: 255px;
     float: left;
+    position: relative;
+    box-sizing: border-box;
 }
+
+#portfolio .portfolio li a:before {
+    background:#3492c8;
+    bottom: 14px;
+    box-sizing: border-box;
+    content: "";
+    height: 0px;
+    left: 11px;
+    opacity: 0.5;
+    position: absolute;
+    width: 241px;
+    z-index: 88;
+    transition: height 0.3s;
+}
+
+#portfolio .portfolio li a:hover:before,
+#portfolio .portfolio li a:active:before {
+    height: 73px;
+    transition: height 0.3s;
+}
+
 
 .imgwrapper {
     background: #000;
@@ -715,7 +738,6 @@ BODY {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
-    background: #FFFFFF;
     padding: 2px 5px;
 
 }
@@ -770,7 +792,7 @@ BODY {
 
 #popup .description {
     color: #58585A;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 10px 10px 18%;
     font-weight: lighter;
     overflow:hidden;
