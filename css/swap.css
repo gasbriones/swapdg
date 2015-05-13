@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'din';
+    font-family: 'din-bold';
     src: url("../fonts/ufonts.com-din-bold.eot");
     src: url("../fonts/ufonts.com-din-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ufonts.com-din-bold.woff") format("woff"), url("../fonts/ufonts.com-din-bold.ttf") format("truetype");
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'din light';
+    font-family: 'din-light';
     src: url("../fonts/ufonts.com-din-light.eot");
     src: url("../fonts/ufonts.com-din-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ufonts.com-din-light.woff") format("woff"), url("../fonts/ufonts.com-din-light.ttf") format("truetype");
     font-weight: normal;
@@ -270,6 +270,33 @@ BODY {
     height: 20px;
     margin: 0 0 10px;
     width: 60px;
+}
+
+.social-icons{
+    position: absolute;
+    top: 50px;
+    right: -70px;
+}
+
+.social-icons li{
+    list-style: none;
+    float: left;
+}
+
+.social-icons li a{
+    width: 26px;
+    height: 25px;
+    background: url("../images/social.png") 0 0;
+    list-style: none;
+    float: left;
+}
+.social-icons li a.tw{
+    background-position: -28px 0 ;
+}
+
+.social-icons li a:hover{
+    opacity:.6 ;
+    transition: opacity 0.25s  ease-in-out;
 }
 
 .en {
@@ -555,7 +582,7 @@ BODY {
     color: #FFF;
     position: absolute;
     top: 235px;
-    width: 880px;
+    width: 830px;
     z-index: 50;
 }
 
@@ -586,13 +613,13 @@ BODY {
     margin-right: 15px;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-#portfolio #menu LI {
+    font-family: din-bold;
     color: #126D83;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 37px;
+
 }
+
 
 #portfolio #menu LI:hover,
 #portfolio #menu LI.active {
@@ -610,10 +637,11 @@ BODY {
 
 #portfolio #portfoliocontent.showingContent {
     height: 635px;
+    overflow:hidden;
 }
 
 #portfolio .portfolio {
-    width: 860px;
+    width: 840px;
     z-index: 55;
     margin: 0;
     padding: 0;
@@ -748,6 +776,7 @@ BODY {
     overflow:hidden;
     white-space:nowrap;
     text-overflow: ellipsis;
+    font-family: din-light;
 }
 
 #popup .description .type {

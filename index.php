@@ -22,6 +22,7 @@ if (empty($_SESSION['swapLang'])) {
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/jquery-lionbars.0.3.js"></script>
 <script type="text/javascript">
    //no conflict jquery
     jQuery.noConflict();
@@ -88,6 +89,10 @@ bgimg.src = "media/bg.jpg";
         <img src="media/ba-argentina.png" id="location" alt="Buenos Aires - Argentina" /><br/>
         <div id="langSelector" <?php if ( $_SESSION['swapLang'] == "en" ) { ?>class="en"<?php } else { ?>class="es"<?php } ?>></div><br/>
         <div id="time" class="<?php echo $time; ?>"></div>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/pages/SWAP-design/1574322016165546"  class="fb" target="_blank"></a></li>
+            <li><a href="https://twitter.com/swap_design" class="tw" target="_blank"></a></li>
+        </ul>
       </div>
     </div>
     <div id="bd">

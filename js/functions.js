@@ -184,6 +184,7 @@ function loadportfolio() {
             //makeScrollbar( window, $('mainscrollbar'), $('mainhandle') );
 			//makeScroller();
             portfoliofilter();
+            portfolioscroll();
 			if ((Browser.Engine.trident == true) && (Browser.Engine.version == 4)) {
 				fullHeight("overlay");
 			}
@@ -412,8 +413,20 @@ function portfoliofilter() {
     })(jQuery);
 }
 
-function portfolioslider(){
+function portfolioscroll(){
 
+    (function($) {
+
+        $('#portfoliocontent').niceScroll({
+            cursorborder:'none',
+            cursorborderradius:0,
+            horizrailenabled:false,
+            cursorwidth:'7',
+            zindex:10,
+            touchbehavior:true
+        });
+
+    })(jQuery);
 }
 
 

@@ -27,7 +27,6 @@ if ($rs=@mysql_query($sql,$con)) {
     <p class="description" title="<?php echo $text ?>">
         <span class="block blue"></span>
         <span class="block gray"></span>
-        <span id="type" class="type"><?php echo $group ?></span>
         <?php echo $text ?> </p>
 
 <script type="text/javascript">
@@ -35,11 +34,10 @@ _gaq.push(['_trackEvent', 'Portfolio', 'Detalle del item <?php echo $item['brief
 (function($) {
 
    $('.bx-slider').bxSlider({
-       minSlides: 2,
-       maxSlides: 3,
-       slideWidth: 600,
-       slideMargin: 0,
-       moveSlides:1
+       minSlides: 1,
+       maxSlides: 1,
+       slideWidth: 1592,
+       slideMargin: 0
     });
 
     function center(){
