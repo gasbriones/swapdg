@@ -313,7 +313,6 @@ function fadeout(el,value) {
 
 function showgallery(gallery,imagesstring) {
   if ( !($chk($("popup"))) ) {
-
     var popup = new Element("div", {
       id:"popup"
     });
@@ -333,9 +332,11 @@ function showgallery(gallery,imagesstring) {
       update:"popup",
       onSuccess: function() {
         portfoliopopup(imagesstring);
+          hoverblue();
       }
     });
     req.send();
+
   }
 }
 
@@ -412,6 +413,19 @@ function portfoliofilter() {
 
     })(jQuery);
 }
+
+function hoverblue(){
+    (function($) {
+
+        $('#portfolio-iso li a').click(function(){
+            $('#portfolio-iso li a').removeClass('active');
+            $(this).addClass('active')
+        });
+
+    })(jQuery);
+}
+
+
 
 function portfolioscroll(){
 

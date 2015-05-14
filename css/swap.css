@@ -673,7 +673,7 @@ BODY {
 }
 
 #portfolio .portfolio li a:hover:before,
-#portfolio .portfolio li a:active:before {
+#portfolio .portfolio li a.active:before {
     height: 73px;
     transition: height 0.3s;
 }
