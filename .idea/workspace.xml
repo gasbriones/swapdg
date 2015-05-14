@@ -38,7 +38,11 @@
       <file leaf-file-name="swap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/swap.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="824" column="23" selection-start="14318" selection-end="14318" vertical-scroll-proportion="0.5072464" vertical-offset="12010" max-vertical-offset="13440">
+=======
+            <state line="679" column="0" selection-start="11630" selection-end="11630" vertical-scroll-proportion="-9.111111" vertical-offset="9939" max-vertical-offset="13395">
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
               <folding />
             </state>
           </provider>
@@ -47,9 +51,9 @@
       <file leaf-file-name="portfolio.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="12" column="107" selection-start="513" selection-end="513" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="420">
               <folding>
-                <marker date="1431553100681" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
+                <marker date="1431568216524" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
               </folding>
             </state>
           </provider>
@@ -69,6 +73,7 @@
       <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="326" column="49" selection-start="8784" selection-end="8784" vertical-scroll-proportion="0.0" vertical-offset="5886" max-vertical-offset="7185">
               <folding />
             </state>
@@ -79,6 +84,9 @@
         <entry file="file://$PROJECT_DIR$/js/jquery-lionbars.0.3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="77" selection-start="67" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+=======
+            <state line="315" column="0" selection-start="8529" selection-end="8529" vertical-scroll-proportion="0.36077058" vertical-offset="4519" max-vertical-offset="7395">
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
               <folding />
             </state>
           </provider>
@@ -111,8 +119,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="width" value="1602" />
-    <option name="height" value="877" />
+    <option name="width" value="1368" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -204,7 +212,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-1" y="0" width="1602" height="877" extended-state="6" />
+=======
+    <frame x="-1" y="0" width="1368" height="745" extended-state="6" />
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -212,7 +224,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27643505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -244,6 +260,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="338" column="3" selection-start="9181" selection-end="9181" vertical-scroll-proportion="0.0" vertical-offset="5070" max-vertical-offset="7515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="6" selection-end="192" vertical-scroll-proportion="0.032822758" vertical-offset="0" max-vertical-offset="457" />
@@ -469,13 +492,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-lionbars.0.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="77" selection-start="67" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="24" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="2415">
@@ -485,16 +501,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="326" column="49" selection-start="8784" selection-end="8784" vertical-scroll-proportion="0.0" vertical-offset="5886" max-vertical-offset="7185">
+=======
+        <state line="679" column="0" selection-start="11630" selection-end="11630" vertical-scroll-proportion="-9.111111" vertical-offset="9939" max-vertical-offset="13395">
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="12" column="107" selection-start="513" selection-end="513" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="420">
           <folding>
-            <marker date="1431553100681" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
+            <marker date="1431568216524" expanded="true" signature="37:80" placeholder="SELECT * FRO..portfolio..." />
           </folding>
         </state>
       </provider>
@@ -510,7 +530,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/swap.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="824" column="23" selection-start="14318" selection-end="14318" vertical-scroll-proportion="0.5072464" vertical-offset="12010" max-vertical-offset="13440">
+=======
+        <state line="315" column="0" selection-start="8529" selection-end="8529" vertical-scroll-proportion="0.36077058" vertical-offset="4519" max-vertical-offset="7395">
+>>>>>>> 8f50155dc4670e8d0244fbc808e909048b69782f
           <folding />
         </state>
       </provider>
