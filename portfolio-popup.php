@@ -41,10 +41,12 @@ _gaq.push(['_trackEvent', 'Portfolio', 'Detalle del item <?php echo $item['brief
     });
 
     function center(){
-        var window = $(document).width();
-        var pop = $('#popup').width();
-        var left = (window-pop)/2+'px';
-        $('#popup').css({left: left});
+        var wwidth = $(window).width();
+        var wheight = $(window).height();
+        var pop = $('#popup');
+        var left = (wwidth-pop.width())/2+'px';
+        var top = (((wheight - (pop.height() < 468 ? 468 : pop.height()))/2)+80) + 'px'
+        pop.css({left: left,top:top});
     }
 
     center();

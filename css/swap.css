@@ -726,6 +726,9 @@ BODY {
     top: 10%;
     width: 90%;
     max-width: 1280px;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -792,7 +795,7 @@ BODY {
 
 #popup .description {
     color: #58585A;
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 10px 10px 18%;
     font-weight: lighter;
     overflow:hidden;
@@ -813,7 +816,7 @@ BODY {
 }
 #popup .description .block {
     display: table;
-    height: 50px;
+    height: 44px;
     position: absolute;
     top: 0;
 }
