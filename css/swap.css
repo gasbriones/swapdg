@@ -274,8 +274,8 @@ BODY {
 
 .social-icons{
     position: absolute;
-    top: 50px;
-    right: -70px;
+    top: 130px;
+    right: 0px;
 }
 
 .social-icons li{
@@ -646,6 +646,7 @@ BODY {
     margin: 0;
     padding: 0;
     display: table;
+    list-style: none;
 }
 
 #portfolio .portfolio li {
@@ -656,6 +657,10 @@ BODY {
     float: left;
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 15px;
+}
+#portfolio .portfolio li a{
+    display: table;
 }
 
 #portfolio .portfolio li a:before {
@@ -724,7 +729,6 @@ BODY {
     z-index: 300;
     background: #E1E2E3;
     top: 10%;
-    width: 90%;
     max-width: 1280px;
     -webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);

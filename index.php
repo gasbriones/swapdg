@@ -12,6 +12,8 @@ $year = date('y');
 if (empty($_SESSION['swapLang'])) {
 	$_SESSION['swapLang'] = "en";
 }
+
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -88,7 +90,6 @@ bgimg.src = "media/bg.jpg";
         <a href="mailto:info@swapdg.com"><img src="media/mail.png" id="mail" alt="info@swapdg.com" /></a><br/>
         <img src="media/ba-argentina.png" id="location" alt="Buenos Aires - Argentina" /><br/>
         <div id="langSelector" <?php if ( $_SESSION['swapLang'] == "en" ) { ?>class="en"<?php } else { ?>class="es"<?php } ?>></div><br/>
-        <div id="time" class="<?php echo $time; ?>"></div>
         <ul class="social-icons">
             <li><a href="https://www.facebook.com/pages/SWAP-design/1574322016165546"  class="fb" target="_blank"></a></li>
             <li><a href="https://twitter.com/swap_design" class="tw" target="_blank"></a></li>
@@ -151,6 +152,12 @@ bgimg.src = "media/bg.jpg";
       <div id="portfoliocontent" class="clearfix"></div>
     </div>
   </div>
+</div>
+<div style="display:none">
+    <img id="file" src="portfolio/univeler-01.jpg">
+    <img id="file" src="portfolio/univeler-02.jpg">
+
+
 </div>
 </body>
 </html>

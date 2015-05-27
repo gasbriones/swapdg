@@ -33,27 +33,38 @@ if ($rs=@mysql_query($sql,$con)) {
 _gaq.push(['_trackEvent', 'Portfolio', 'Detalle del item <?php echo $item['brief']; ?>']);
 (function($) {
 
-   $('.bx-slider').bxSlider({
-       minSlides: 1,
-       maxSlides: 1,
-       slideWidth: 1592,
-       slideMargin: 0
-    });
+       $('.bx-slider').bxSlider({
+           minSlides: 1,
+           maxSlides: 1,
+           slideWidth: 1592,
+           slideMargin: 0
+        });
 
-    function center(){
-        var wwidth = $(window).width();
-        var wheight = $(window).height();
-        var pop = $('#popup');
-        var left = (wwidth-pop.width())/2+'px';
-        var top = (((wheight - (pop.height() < 468 ? 468 : pop.height()))/2)+80) + 'px'
-        pop.css({left: left,top:top});
+
+
+
+        function center(){
+            var wwidth = $(window).width();
+            var wheight = $(window).height();
+            var pop = $('#popup');
+            var left = (wwidth-pop.width())/2+'px';
+            var top = (((wheight - (pop.height() < 468 ? 468 : pop.height()))/2)+80) + 'px'
+            pop.css({left: left,top:top});
+        }
+
+
+
+    if (!window.navigator.userAgent.match(/android|tablet|blackberry|ipad|iphone|ipod|windows phone|mobi|xoom|sch-i800|playbook|tablet|kindle|GoogleTV|SmartTV|Internet.TV|NetCast|NETTV|AppleTV|boxee|Kylo|Roku|DLNADOC|CE\-HTML/gi)) {
+        center();
+
+        $(window).resize(function() {
+            center();
+        });
+    }else{
+        $('#popup').css({top:'20%'})
     }
 
-    center();
 
-    $(window).resize(function() {
-        center();
-    });
 
 
 })(jQuery);

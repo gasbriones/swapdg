@@ -402,7 +402,11 @@ function portfoliofilter() {
         var $container = $('#portfolio-iso');
 
         $container.isotope({
-            itemSelector: '.item'
+            itemSelector: '.item',
+            masonry: {
+                gutter: 15
+
+            }
         });
 
         $('#menu li').click(function(){
@@ -439,7 +443,6 @@ function portfolioscroll(){
             zindex:10,
             touchbehavior:true
         });
-
     })(jQuery);
 }
 
