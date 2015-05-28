@@ -98,7 +98,7 @@ bgimg.src = "media/bg.jpg";
     </div>
     <div id="bd">
       <img src="media/pix.png" id="news" class="title" alt="News" style="visibility:hidden;" />
-      <div id="newscontent" style="visibility:hidden;"></div>
+      <div id="newscontent" style="visibility:visible;"></div>
       <div id="aboutswap">
         <div id="aboutswapcontent" style="visibility:hidden">
           <img src="media/welcome.png" id="welcome" alt="Welcome" />
@@ -116,7 +116,7 @@ bgimg.src = "media/bg.jpg";
         <div id="aboutswapbg" style="visibility:hidden"></div>
       </div>
       <img src="media/pix.png" id="comments" class="title" alt="Comments" style="visibility:hidden;" />
-      <div id="commentscontent" style="visibility:hidden;" ></div>
+      <div id="commentscontent" style="visibility:hidden !important;" ></div>
 
       <div id="right">
         <div id="calendar" style="visibility:hidden;" class="clearfix"><?php
@@ -156,8 +156,6 @@ bgimg.src = "media/bg.jpg";
 <div style="display:none">
     <img id="file" src="portfolio/univeler-01.jpg">
     <img id="file" src="portfolio/univeler-02.jpg">
-
-
 </div>
 </body>
 </html>

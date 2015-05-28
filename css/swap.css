@@ -637,7 +637,8 @@ BODY {
 
 #portfolio #portfoliocontent.showingContent {
     height: 635px;
-    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #portfolio .portfolio {

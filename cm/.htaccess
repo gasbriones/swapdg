@@ -1,4 +1,4 @@
 AuthName "cm"
 AuthType "basic"
-AuthUserFile /home/swapdg/public_html/cm/.passwd
+AuthUserFile /www/gastudio/swapdg/cm/.passwd
 Require valid-user

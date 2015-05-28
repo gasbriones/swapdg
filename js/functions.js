@@ -101,8 +101,8 @@ function onLoadSetup() {
 			});
 			$("news").setStyle("visibility","visible");
 			$("newscontent").setStyle("visibility","visible");
-			$("comments").setStyle("visibility","visible");
-			$("commentscontent").setStyle("visibility","visible");
+			$("comments").setStyle("visibility","hidden");
+			$("commentscontent").setStyle("visibility","hidden");
 			myFx2 = new Fx.Tween("calendar", { duration:300, onComplete:function() {
 				var myFx3 = new Fx.Tween("latestworks", { duration:300, onComplete:function() {
 					var myFx4 = new Fx.Tween("leavecomments", { duration:300, onComplete:function() {
@@ -184,7 +184,7 @@ function loadportfolio() {
             //makeScrollbar( window, $('mainscrollbar'), $('mainhandle') );
 			//makeScroller();
             portfoliofilter();
-            portfolioscroll();
+           // portfolioscroll();
 			if ((Browser.Engine.trident == true) && (Browser.Engine.version == 4)) {
 				fullHeight("overlay");
 			}
